@@ -81,6 +81,7 @@ cargarFormularioMatricula=()=>{
    const contenedorTabla = document.getElementById('moduloReportesUno');
    const contenedorTablaII = document.getElementById('moduloReportesDos');
    const contenedorPrincipal=document.getElementById('tituloRPincipal');
+   const asignaturasContainer=document.getElementById('asignaturasContainer')
 
    // aca se da estilos
    estudianteForm.style.display='none';
@@ -99,6 +100,7 @@ cargarFormularioMatricula=()=>{
    listaMatriculasElement.style.display='none';
    horarioForm.style.display='none';
    contenedorPrincipal.style.display='none';
+   asignaturasContainer.style.display='block';
 
    
   matriculaForm.innerHTML=`
@@ -224,10 +226,11 @@ const crearMatricula = async () => {
       if (tarifa) {
         // Calcular el precio de la matrícula
         const precioMatricula = creditosAsignatura * tarifa.costo_credito;
+        const maxId=Math.max(...listadoMatriculas.map(matricula=>matricula.id),0);
 
         // Crear nueva matrícula con el precio calculado
         const nuevaMatricula = {
-          id: listadoMatriculas.length + 1,
+          id: maxId+1,
           estudiante_id: Number(estuIdMatricula),
           asignatura_id: Number(asignaturaId),
           periodo_id: Number(perioIdMatricula),

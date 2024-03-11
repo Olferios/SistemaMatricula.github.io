@@ -449,6 +449,14 @@
       "nombre": "Ricardo",
       "apellido": "Martínez",
       "departamento_id": 1
+    },
+    {
+      "id": 31,
+      "tipo_documento": "CC",
+      "numero_documento": "99999999",
+      "nombre": "Efrain",
+      "apellido": "rodriguez",
+      "departamento_id": "1"
     }
   ],
   "alumnos": [
@@ -1112,6 +1120,19 @@
       "direccion": "",
       "telefono": "",
       "fecha_nacimiento": "",
+      "sexo": "H",
+      "programa_id": "1"
+    },
+    {
+      "id": 52,
+      "nombre": "Olfer",
+      "apellido": "martinez",
+      "tipo_documento": "CC",
+      "numero_documento": "237819187",
+      "ciudad_residencia": "Floridablanca",
+      "direccion": "Calle 158 # 18-54 Conjunto sierra colina, Torre 2 apto 102",
+      "telefono": "3175024300",
+      "fecha_nacimiento": "2024-03-05",
       "sexo": "H",
       "programa_id": "1"
     }
@@ -2127,6 +2148,26 @@
           "salon_id": "11"
         }
       ]
+    },
+    {
+      "id": 32,
+      "curso": "3",
+      "codigo": "681004",
+      "creditos": "2",
+      "docente": "11",
+      "cupos": "23",
+      "horario_clases": [
+        {
+          "dia": "Lunes",
+          "hora_inicio": "4",
+          "salon_id": "13"
+        },
+        {
+          "dia": "Numero",
+          "hora_inicio": "5",
+          "salon_id": "14"
+        }
+      ]
     }
   ],
   "matriculas": [
@@ -2159,60 +2200,18 @@
       "precio": 4000
     },
     {
-      "id": "5",
-      "estudiante_id": 41,
-      "asignatura_id": 28,
+      "id": 4,
+      "estudiante_id": 10,
+      "asignatura_id": 15,
       "periodo_id": 1,
-      "precio": 2850
+      "precio": 3920
     },
     {
-      "id": "6",
-      "estudiante_id": 49,
-      "asignatura_id": 28,
-      "periodo_id": 2,
-      "precio": 2850
-    },
-    {
-      "id": 7,
-      "estudiante_id": 41,
+      "id": 4,
+      "estudiante_id": 10,
       "asignatura_id": 1,
       "periodo_id": 1,
       "precio": 4000
-    },
-    {
-      "id": 7,
-      "estudiante_id": 41,
-      "asignatura_id": 1,
-      "periodo_id": 1,
-      "precio": 4000
-    },
-    {
-      "id": 7,
-      "estudiante_id": 41,
-      "asignatura_id": 1,
-      "periodo_id": 1,
-      "precio": 4000
-    },
-    {
-      "id": 7,
-      "estudiante_id": 41,
-      "asignatura_id": 1,
-      "periodo_id": 1,
-      "precio": 4000
-    },
-    {
-      "id": 7,
-      "estudiante_id": 41,
-      "asignatura_id": 1,
-      "periodo_id": 1,
-      "precio": 4000
-    },
-    {
-      "id": 7,
-      "estudiante_id": 41,
-      "asignatura_id": 16,
-      "periodo_id": 1,
-      "precio": 3600
     }
   ]
 }
