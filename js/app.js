@@ -1,7 +1,14 @@
-document.addEventListener('DOMContentLoaded',()=>{
+document.addEventListener('DOMContentLoaded', () => {
+  cargarAsignaturas();
   cargarTarifa();
   cargarDocente();
+  cargarEstudiante();
+  cargarPrograma();
   cargarDepartamento();
-  //  cargarFormularioEstudiante();
-    
-})
+  cargarCurso();
+  cargarSalon();
+  cargarPeriodo();
+  cargarMatricula();
+  
+  // cargarFormularioEstudiante();  // Si esta función está definida, también puedes probar descomentándola
+});

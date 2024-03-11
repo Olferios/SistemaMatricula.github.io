@@ -1,56 +1,217 @@
 {
   "periodos": [
     {
-      "id": 1,
+      "id": "1",
       "codigo": "P24-01",
       "ano": 2024,
       "semestre": 1
+    },
+    {
+      "id": "2",
+      "codigo": "P24-02",
+      "ano": 2024,
+      "semestre": 2
     }
   ],
   "programas": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Ingeniería de Sistemas",
       "nivel": "Pregrado"
     },
     {
-      "id": 2,
+      "id": "2",
       "nombre": "Ingeniería de Mecatronica",
       "nivel": "Pregrado"
     },
     {
-      "id": 3,
+      "id": "3",
       "nombre": "Ingeniería de industrial",
+      "nivel": "Pregrado"
+    },
+    {
+      "id": "4",
+      "nombre": "Ingeniería de Mecanica",
+      "nivel": "Pregrado"
+    },
+    {
+      "id": "5",
+      "nombre": "Ingeniería de Electronica",
+      "nivel": "Pregrado"
+    },
+    {
+      "id": "6",
+      "nombre": "Ingeniería de Mercados",
+      "nivel": "Pregrado"
+    },
+    {
+      "id": "7",
+      "nombre": "Economia",
+      "nivel": "Pregrado"
+    },
+    {
+      "id": "8",
+      "nombre": "Derecho",
+      "nivel": "Pregrado"
+    },
+    {
+      "id": "9",
+      "nombre": "Comunicacion Social",
+      "nivel": "Pregrado"
+    },
+    {
+      "id": "10",
+      "nombre": "Ingeniería Quimica",
       "nivel": "Pregrado"
     }
   ],
   "tarifas": [
     {
-      "id": 1,
+      "id": "1",
       "costo_credito": 1000,
       "periodo_id": 1,
       "programa_id": 1
     },
     {
-      "id": 2,
+      "id": "2",
+      "costo_credito": 1200,
+      "periodo_id": 1,
+      "programa_id": 5
+    },
+    {
+      "id": "3",
+      "costo_credito": 980,
+      "periodo_id": 1,
+      "programa_id": 8
+    },
+    {
+      "id": "4",
+      "costo_credito": 1050,
+      "periodo_id": 1,
+      "programa_id": 3
+    },
+    {
+      "id": "5",
       "costo_credito": 1100,
       "periodo_id": 1,
+      "programa_id": 7
+    },
+    {
+      "id": "6",
+      "costo_credito": 950,
+      "periodo_id": 1,
       "programa_id": 2
+    },
+    {
+      "id": "7",
+      "costo_credito": 1150,
+      "periodo_id": 1,
+      "programa_id": 9
+    },
+    {
+      "id": "8",
+      "costo_credito": 1020,
+      "periodo_id": 1,
+      "programa_id": 1
+    },
+    {
+      "id": "9",
+      "costo_credito": 980,
+      "periodo_id": 1,
+      "programa_id": 6
+    },
+    {
+      "id": "10",
+      "costo_credito": 1080,
+      "periodo_id": 1,
+      "programa_id": 4
+    },
+    {
+      "id": "11",
+      "costo_credito": 1100,
+      "periodo_id": 2,
+      "programa_id": 10
+    },
+    {
+      "id": "12",
+      "costo_credito": 1050,
+      "periodo_id": 2,
+      "programa_id": 7
+    },
+    {
+      "id": "13",
+      "costo_credito": 1120,
+      "periodo_id": 2,
+      "programa_id": 3
+    },
+    {
+      "id": "14",
+      "costo_credito": 990,
+      "periodo_id": 2,
+      "programa_id": 9
+    },
+    {
+      "id": "15",
+      "costo_credito": 1040,
+      "periodo_id": 2,
+      "programa_id": 2
+    },
+    {
+      "id": "16",
+      "costo_credito": 1080,
+      "periodo_id": 2,
+      "programa_id": 8
+    },
+    {
+      "id": "17",
+      "costo_credito": 980,
+      "periodo_id": 2,
+      "programa_id": 4
+    },
+    {
+      "id": "18",
+      "costo_credito": 1150,
+      "periodo_id": 2,
+      "programa_id": 5
+    },
+    {
+      "id": "19",
+      "costo_credito": 1070,
+      "periodo_id": 2,
+      "programa_id": 1
+    },
+    {
+      "id": "20",
+      "costo_credito": 1020,
+      "periodo_id": 2,
+      "programa_id": 6
     }
   ],
   "departamentos": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Departamento de Informática"
     },
     {
-      "id": 2,
+      "id": "2",
       "nombre": "Departamento de Matemáticas"
+    },
+    {
+      "id": "3",
+      "nombre": "Departamento de Economia"
+    },
+    {
+      "id": "4",
+      "nombre": "Departamento de cultura"
+    },
+    {
+      "id": "5",
+      "nombre": "Departamento de derecho"
     }
   ],
   "profesores": [
     {
-      "id": 1,
+      "id": "1",
       "tipo_documento": "CC",
       "numero_documento": "13788555",
       "nombre": "Juan",
@@ -58,21 +219,245 @@
       "departamento_id": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "tipo_documento": "CC",
       "numero_documento": "137880000",
       "nombre": "María",
       "apellido": "Gómez",
       "departamento_id": 2
+    },
+    {
+      "id": "3",
+      "tipo_documento": "CC",
+      "numero_documento": "98234567",
+      "nombre": "Carlos",
+      "apellido": "López",
+      "departamento_id": 2
+    },
+    {
+      "id": "4",
+      "tipo_documento": "CC",
+      "numero_documento": "76543210",
+      "nombre": "Ana",
+      "apellido": "Martínez",
+      "departamento_id": 1
+    },
+    {
+      "id": "5",
+      "tipo_documento": "CC",
+      "numero_documento": "55443322",
+      "nombre": "Pedro",
+      "apellido": "Hernández",
+      "departamento_id": 2
+    },
+    {
+      "id": "6",
+      "tipo_documento": "CC",
+      "numero_documento": "99887766",
+      "nombre": "Laura",
+      "apellido": "García",
+      "departamento_id": 1
+    },
+    {
+      "id": "7",
+      "tipo_documento": "CC",
+      "numero_documento": "11223344",
+      "nombre": "Jorge",
+      "apellido": "Pérez",
+      "departamento_id": 3
+    },
+    {
+      "id": "8",
+      "tipo_documento": "CC",
+      "numero_documento": "33445566",
+      "nombre": "Isabel",
+      "apellido": "Ramírez",
+      "departamento_id": 2
+    },
+    {
+      "id": "9",
+      "tipo_documento": "CC",
+      "numero_documento": "66778899",
+      "nombre": "Juan",
+      "apellido": "Fernández",
+      "departamento_id": 1
+    },
+    {
+      "id": "10",
+      "tipo_documento": "CC",
+      "numero_documento": "88990011",
+      "nombre": "Sofía",
+      "apellido": "López",
+      "departamento_id": 3
+    },
+    {
+      "id": "11",
+      "tipo_documento": "CC",
+      "numero_documento": "55667788",
+      "nombre": "Ricardo",
+      "apellido": "Gómez",
+      "departamento_id": 2
+    },
+    {
+      "id": "12",
+      "tipo_documento": "CC",
+      "numero_documento": "99001122",
+      "nombre": "Carmen",
+      "apellido": "Martínez",
+      "departamento_id": 1
+    },
+    {
+      "id": "13",
+      "tipo_documento": "CC",
+      "numero_documento": "22334455",
+      "nombre": "Roberto",
+      "apellido": "Hernández",
+      "departamento_id": 2
+    },
+    {
+      "id": "14",
+      "tipo_documento": "CC",
+      "numero_documento": "44556677",
+      "nombre": "Natalia",
+      "apellido": "García",
+      "departamento_id": 3
+    },
+    {
+      "id": "15",
+      "tipo_documento": "CC",
+      "numero_documento": "77889900",
+      "nombre": "Miguel",
+      "apellido": "Rodríguez",
+      "departamento_id": 1
+    },
+    {
+      "id": "16",
+      "tipo_documento": "CC",
+      "numero_documento": "11223344",
+      "nombre": "Luisa",
+      "apellido": "Fernández",
+      "departamento_id": 2
+    },
+    {
+      "id": "17",
+      "tipo_documento": "CC",
+      "numero_documento": "88990011",
+      "nombre": "Juan",
+      "apellido": "Sánchez",
+      "departamento_id": 3
+    },
+    {
+      "id": "18",
+      "tipo_documento": "CC",
+      "numero_documento": "66778899",
+      "nombre": "Sofía",
+      "apellido": "Martínez",
+      "departamento_id": 1
+    },
+    {
+      "id": "19",
+      "tipo_documento": "CC",
+      "numero_documento": "00112233",
+      "nombre": "Elena",
+      "apellido": "Hernández",
+      "departamento_id": 2
+    },
+    {
+      "id": "20",
+      "tipo_documento": "CC",
+      "numero_documento": "22334455",
+      "nombre": "Andrés",
+      "apellido": "García",
+      "departamento_id": 3
+    },
+    {
+      "id": "21",
+      "tipo_documento": "CC",
+      "numero_documento": "55667788",
+      "nombre": "Ricardo",
+      "apellido": "Rodríguez",
+      "departamento_id": 1
+    },
+    {
+      "id": "22",
+      "tipo_documento": "CC",
+      "numero_documento": "99001122",
+      "nombre": "Carmen",
+      "apellido": "Fernández",
+      "departamento_id": 2
+    },
+    {
+      "id": "23",
+      "tipo_documento": "CC",
+      "numero_documento": "44556677",
+      "nombre": "Roberto",
+      "apellido": "Sánchez",
+      "departamento_id": 3
+    },
+    {
+      "id": "24",
+      "tipo_documento": "CC",
+      "numero_documento": "77889900",
+      "nombre": "Natalia",
+      "apellido": "Martínez",
+      "departamento_id": 1
+    },
+    {
+      "id": "25",
+      "tipo_documento": "CC",
+      "numero_documento": "11223344",
+      "nombre": "Miguel",
+      "apellido": "Hernández",
+      "departamento_id": 2
+    },
+    {
+      "id": "26",
+      "tipo_documento": "CC",
+      "numero_documento": "88990011",
+      "nombre": "Luisa",
+      "apellido": "García",
+      "departamento_id": 3
+    },
+    {
+      "id": "27",
+      "tipo_documento": "CC",
+      "numero_documento": "66778899",
+      "nombre": "Juan",
+      "apellido": "Rodríguez",
+      "departamento_id": 1
+    },
+    {
+      "id": "28",
+      "tipo_documento": "CC",
+      "numero_documento": "00112233",
+      "nombre": "Sofía",
+      "apellido": "Fernández",
+      "departamento_id": 2
+    },
+    {
+      "id": "29",
+      "tipo_documento": "CC",
+      "numero_documento": "24567980",
+      "nombre": "María",
+      "apellido": "Gómez",
+      "departamento_id": 3
+    },
+    {
+      "id": "30",
+      "tipo_documento": "CC",
+      "numero_documento": "55667788",
+      "nombre": "Ricardo",
+      "apellido": "Martínez",
+      "departamento_id": 1
     }
   ],
   "alumnos": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Carlos",
       "apellido": "Rodríguez",
       "tipo_documento": "Cédula",
-      "numero_documento": "123456789",
+      "numero_documento": "12345678933",
       "ciudad_residencia": "Bogotá",
       "direccion": "Calle 123",
       "telefono": "1234567890",
@@ -81,45 +466,983 @@
       "programa_id": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "nombre": "Ana",
       "apellido": "Martínez",
       "tipo_documento": "Cédula de Extranjería",
-      "numero_documento": "987654321",
+      "numero_documento": "9876543321",
       "ciudad_residencia": "Medellín",
       "direccion": "Carrera 456",
       "telefono": "0987654321",
       "fecha_nacimiento": "1992-05-15",
       "sexo": "Femenino",
       "programa_id": 2
+    },
+    {
+      "id": "3",
+      "nombre": "Carlos",
+      "apellido": "González",
+      "tipo_documento": "Cedula",
+      "numero_documento": "12344356789",
+      "ciudad_residencia": "Bogotá",
+      "direccion": "Calle 789",
+      "telefono": "0987654322",
+      "fecha_nacimiento": "1985-09-20",
+      "sexo": "Masculino",
+      "programa_id": 8
+    },
+    {
+      "id": "4",
+      "nombre": "Laura",
+      "apellido": "López",
+      "tipo_documento": "Numero Pasaporte",
+      "numero_documento": "51255666777",
+      "ciudad_residencia": "Cali",
+      "direccion": "Avenida 123",
+      "telefono": "0987654323",
+      "fecha_nacimiento": "1990-12-08",
+      "sexo": "Femenino",
+      "programa_id": 4
+    },
+    {
+      "id": "5",
+      "nombre": "Miguel",
+      "apellido": "Rodríguez",
+      "tipo_documento": "Tarjeta Identidad",
+      "numero_documento": "98765244321",
+      "ciudad_residencia": "Barranquilla",
+      "direccion": "Carrera 789",
+      "telefono": "0987654324",
+      "fecha_nacimiento": "1982-03-25",
+      "sexo": "Masculino",
+      "programa_id": 6
+    },
+    {
+      "id": "6",
+      "nombre": "Isabel",
+      "apellido": "Fernández",
+      "tipo_documento": "Cedula de Extranjería",
+      "numero_documento": "456789045412",
+      "ciudad_residencia": "Medellín",
+      "direccion": "Calle 234",
+      "telefono": "0987654325",
+      "fecha_nacimiento": "1995-07-10",
+      "sexo": "Femenino",
+      "programa_id": 1
+    },
+    {
+      "id": "7",
+      "nombre": "Javier",
+      "apellido": "Gómez",
+      "tipo_documento": "Cedula",
+      "numero_documento": "345623378901",
+      "ciudad_residencia": "Bogotá",
+      "direccion": "Avenida 567",
+      "telefono": "0987654326",
+      "fecha_nacimiento": "1988-11-18",
+      "sexo": "Masculino",
+      "programa_id": 9
+    },
+    {
+      "id": "8",
+      "nombre": "Carmen",
+      "apellido": "Sánchez",
+      "tipo_documento": "Numero Pasaporte",
+      "numero_documento": "987623254321",
+      "ciudad_residencia": "Cali",
+      "direccion": "Carrera 890",
+      "telefono": "0987654327",
+      "fecha_nacimiento": "1993-02-01",
+      "sexo": "Femenino",
+      "programa_id": 3
+    },
+    {
+      "id": "9",
+      "nombre": "Roberto",
+      "apellido": "Martínez",
+      "tipo_documento": "Tarjeta Identidad",
+      "numero_documento": "2345676543",
+      "ciudad_residencia": "Barranquilla",
+      "direccion": "Calle 345",
+      "telefono": "0987654328",
+      "fecha_nacimiento": "1980-06-14",
+      "sexo": "Masculino",
+      "programa_id": 7
+    },
+    {
+      "id": "10",
+      "nombre": "Natalia",
+      "apellido": "porra",
+      "tipo_documento": "Cédula de Extranjería",
+      "numero_documento": "23456732890",
+      "ciudad_residencia": "Medellín",
+      "direccion": "Avenida 678",
+      "telefono": "0987654329",
+      "fecha_nacimiento": "1998-09-28",
+      "sexo": "Femenino",
+      "programa_id": 5
+    },
+    {
+      "id": "11",
+      "nombre": "Juan",
+      "apellido": "Olaya",
+      "tipo_documento": "Cedula",
+      "numero_documento": "987633223541",
+      "ciudad_residencia": "Bogotá",
+      "direccion": "Carrera 123",
+      "telefono": "0987654330",
+      "fecha_nacimiento": "1983-04-07",
+      "sexo": "Masculino",
+      "programa_id": 10
+    },
+    {
+      "id": "12",
+      "nombre": "Sofía",
+      "apellido": "López",
+      "tipo_documento": "Numero Pasaporte",
+      "numero_documento": "5556232377",
+      "ciudad_residencia": "Cali",
+      "direccion": "Calle 456",
+      "telefono": "0987654331",
+      "fecha_nacimiento": "1991-07-16",
+      "sexo": "Femenino",
+      "programa_id": 2
+    },
+    {
+      "id": "13",
+      "nombre": "Andrés",
+      "apellido": "Fernández",
+      "tipo_documento": "Tarjeta Identidad",
+      "numero_documento": "987655432",
+      "ciudad_residencia": "Barranquilla",
+      "direccion": "Avenida 789",
+      "telefono": "0987654332",
+      "fecha_nacimiento": "1986-10-23",
+      "sexo": "Masculino",
+      "programa_id": 8
+    },
+    {
+      "id": "14",
+      "nombre": "Elena",
+      "apellido": "Gómez",
+      "tipo_documento": "Cédula de Extranjería",
+      "numero_documento": "987789012",
+      "ciudad_residencia": "Medellín",
+      "direccion": "Carrera 901",
+      "telefono": "0987654333",
+      "fecha_nacimiento": "1994-01-31",
+      "sexo": "Femenino",
+      "programa_id": 4
+    },
+    {
+      "id": "15",
+      "nombre": "Luis",
+      "apellido": "rios",
+      "tipo_documento": "Cedula",
+      "numero_documento": "342334301",
+      "ciudad_residencia": "Bogotá",
+      "direccion": "Calle 234",
+      "telefono": "0987654334",
+      "fecha_nacimiento": "1989-05-08",
+      "sexo": "Masculino",
+      "programa_id": 6
+    },
+    {
+      "id": "16",
+      "nombre": "María",
+      "apellido": "lino",
+      "tipo_documento": "Numero Pasaporte",
+      "numero_documento": "876554321",
+      "ciudad_residencia": "Cali",
+      "direccion": "Avenida 567",
+      "telefono": "0987654335",
+      "fecha_nacimiento": "1984-08-15",
+      "sexo": "Femenino",
+      "programa_id": 1
+    },
+    {
+      "id": "17",
+      "nombre": "Jorge",
+      "apellido": "bedoya",
+      "tipo_documento": "Tarjeta Identidad",
+      "numero_documento": "122093889",
+      "ciudad_residencia": "Barranquilla",
+      "direccion": "Carrera 890",
+      "telefono": "0987654336",
+      "fecha_nacimiento": "1997-11-22",
+      "sexo": "Masculino",
+      "programa_id": 9
+    },
+    {
+      "id": "18",
+      "nombre": "Catalina",
+      "apellido": "goma",
+      "tipo_documento": "Cédula de Extranjería",
+      "numero_documento": "2398267890",
+      "ciudad_residencia": "Medellín",
+      "direccion": "Calle 678",
+      "telefono": "0987654337",
+      "fecha_nacimiento": "1990-02-28",
+      "sexo": "Femenino",
+      "programa_id": 5
+    },
+    {
+      "id": "19",
+      "nombre": "Héctor",
+      "apellido": "luna",
+      "tipo_documento": "Cedula",
+      "numero_documento": "738164530",
+      "ciudad_residencia": "Bogotá",
+      "direccion": "Avenida 123",
+      "telefono": "0987654338",
+      "fecha_nacimiento": "1985-06-07",
+      "sexo": "Masculino",
+      "programa_id": 10
+    },
+    {
+      "id": "20",
+      "nombre": "Sara",
+      "apellido": "miro",
+      "tipo_documento": "Numero Pasaporte",
+      "numero_documento": "55445666777",
+      "ciudad_residencia": "Cali",
+      "direccion": "Carrera 234",
+      "telefono": "0987654339",
+      "fecha_nacimiento": "1992-09-14",
+      "sexo": "Femenino",
+      "programa_id": 2
+    },
+    {
+      "id": "21",
+      "nombre": "Pedro",
+      "apellido": "Rito",
+      "tipo_documento": "Tarjeta Identidad",
+      "numero_documento": "4030291839",
+      "ciudad_residencia": "Barranquilla",
+      "direccion": "Calle 567",
+      "telefono": "0987654340",
+      "fecha_nacimiento": "1981-12-21",
+      "sexo": "Masculino",
+      "programa_id": 8
+    },
+    {
+      "id": "22",
+      "nombre": "Julia",
+      "apellido": "oyola",
+      "tipo_documento": "Cédula de Extranjería",
+      "numero_documento": "98073789012",
+      "ciudad_residencia": "Medellín",
+      "direccion": "Avenida 789",
+      "telefono": "0987654341",
+      "fecha_nacimiento": "1996-03-30",
+      "sexo": "Femenino",
+      "programa_id": 4
+    },
+    {
+      "id": "23",
+      "nombre": "Andrea",
+      "apellido": "diaz",
+      "tipo_documento": "Cedula",
+      "numero_documento": "34598887331",
+      "ciudad_residencia": "Bogotá",
+      "direccion": "Carrera 901",
+      "telefono": "0987654342",
+      "fecha_nacimiento": "1988-07-06",
+      "sexo": "Masculino",
+      "programa_id": 7
+    },
+    {
+      "id": "24",
+      "nombre": "Diego",
+      "apellido": "Nunes",
+      "tipo_documento": "Numero Pasaporte",
+      "numero_documento": "9098283321",
+      "ciudad_residencia": "Cali",
+      "direccion": "Calle 123",
+      "telefono": "0987654343",
+      "fecha_nacimiento": "1983-10-13",
+      "sexo": "Femenino",
+      "programa_id": 3
+    },
+    {
+      "id": "25",
+      "nombre": "Camilo",
+      "apellido": "reto",
+      "tipo_documento": "Tarjeta Identidad",
+      "numero_documento": "455929003",
+      "ciudad_residencia": "Barranquilla",
+      "direccion": "Avenida 456",
+      "telefono": "0987654344",
+      "fecha_nacimiento": "1995-01-18",
+      "sexo": "Masculino",
+      "programa_id": 6
+    },
+    {
+      "id": "26",
+      "nombre": "Valentina",
+      "apellido": "rendon",
+      "tipo_documento": "Cédula de Extranjería",
+      "numero_documento": "15902567890",
+      "ciudad_residencia": "Medellín",
+      "direccion": "Carrera 678",
+      "telefono": "0987654345",
+      "fecha_nacimiento": "1986-04-25",
+      "sexo": "Femenino",
+      "programa_id": 1
+    },
+    {
+      "id": "27",
+      "nombre": "Fernando",
+      "apellido": "Castro",
+      "tipo_documento": "Cedula",
+      "numero_documento": "987654444321",
+      "ciudad_residencia": "Bogotá",
+      "direccion": "Calle 234",
+      "telefono": "0987654346",
+      "fecha_nacimiento": "1989-08-02",
+      "sexo": "Masculino",
+      "programa_id": 9
+    },
+    {
+      "id": "28",
+      "nombre": "Gabriela",
+      "apellido": "vero",
+      "tipo_documento": "Numero Pasaporte",
+      "numero_documento": "545093777",
+      "ciudad_residencia": "Cali",
+      "direccion": "Avenida 567",
+      "telefono": "0987654347",
+      "fecha_nacimiento": "1984-11-09",
+      "sexo": "Femenino",
+      "programa_id": 2
+    },
+    {
+      "id": "29",
+      "nombre": "Juan",
+      "apellido": "wemas",
+      "tipo_documento": "Tarjeta Identidad",
+      "numero_documento": "909944321",
+      "ciudad_residencia": "Barranquilla",
+      "direccion": "Carrera 890",
+      "telefono": "0987654348",
+      "fecha_nacimiento": "1997-02-16",
+      "sexo": "Masculino",
+      "programa_id": 8
+    },
+    {
+      "id": "30",
+      "nombre": "Sofía",
+      "apellido": "guerrero",
+      "tipo_documento": "Cédula de Extranjería",
+      "numero_documento": "45601498012",
+      "ciudad_residencia": "Medellín",
+      "direccion": "Calle 901",
+      "telefono": "0987654349",
+      "fecha_nacimiento": "1990-05-25",
+      "sexo": "Femenino",
+      "programa_id": 4
+    },
+    {
+      "id": "31",
+      "nombre": "Andrés",
+      "apellido": "perro",
+      "tipo_documento": "Cedula",
+      "numero_documento": "3029278378901",
+      "ciudad_residencia": "Bogotá",
+      "direccion": "Avenida 123",
+      "telefono": "0987654350",
+      "fecha_nacimiento": "1983-09-03",
+      "sexo": "Masculino",
+      "programa_id": 7
+    },
+    {
+      "id": "32",
+      "nombre": "Elena",
+      "apellido": "vio",
+      "tipo_documento": "Numero Pasaporte",
+      "numero_documento": "939328398312984",
+      "ciudad_residencia": "Cali",
+      "direccion": "Carrera 234",
+      "telefono": "0987654351",
+      "fecha_nacimiento": "1996-12-10",
+      "sexo": "Femenino",
+      "programa_id": 3
+    },
+    {
+      "id": "33",
+      "nombre": "Roberto",
+      "apellido": "miron",
+      "tipo_documento": "Tarjeta Identidad",
+      "numero_documento": "373720312",
+      "ciudad_residencia": "Barranquilla",
+      "direccion": "Calle 567",
+      "telefono": "0987654352",
+      "fecha_nacimiento": "1981-03-18",
+      "sexo": "Masculino",
+      "programa_id": 6
+    },
+    {
+      "id": "34",
+      "nombre": "Natalia",
+      "apellido": "cepeda",
+      "tipo_documento": "Cédula de Extranjería",
+      "numero_documento": "234302997890",
+      "ciudad_residencia": "Medellín",
+      "direccion": "Avenida 678",
+      "telefono": "0987654353",
+      "fecha_nacimiento": "1994-06-27",
+      "sexo": "Femenino",
+      "programa_id": 1
+    },
+    {
+      "id": "35",
+      "nombre": "Luis",
+      "apellido": "orejuela",
+      "tipo_documento": "Cedula",
+      "numero_documento": "239398287654321",
+      "ciudad_residencia": "Bogotá",
+      "direccion": "Carrera 890",
+      "telefono": "0987654354",
+      "fecha_nacimiento": "1987-10-05",
+      "sexo": "Masculino",
+      "programa_id": 9
+    },
+    {
+      "id": "36",
+      "nombre": "María",
+      "apellido": "suares",
+      "tipo_documento": "Numero Pasaporte",
+      "numero_documento": "23344200777",
+      "ciudad_residencia": "Cali",
+      "direccion": "Calle 123",
+      "telefono": "0987654355",
+      "fecha_nacimiento": "1992-01-14",
+      "sexo": "Femenino",
+      "programa_id": 2
+    },
+    {
+      "id": "37",
+      "nombre": "Jorge",
+      "apellido": "ferro",
+      "tipo_documento": "Tarjeta Identidad",
+      "numero_documento": "980929282821",
+      "ciudad_residencia": "Barranquilla",
+      "direccion": "Avenida 456",
+      "telefono": "0987654356",
+      "fecha_nacimiento": "1985-04-22",
+      "sexo": "Masculino",
+      "programa_id": 8
+    },
+    {
+      "id": "38",
+      "nombre": "Catalina",
+      "apellido": "brillo",
+      "tipo_documento": "Cédula de Extranjería",
+      "numero_documento": "9293848072847",
+      "ciudad_residencia": "Medellín",
+      "direccion": "Carrera 789",
+      "telefono": "0987654357",
+      "fecha_nacimiento": "1997-07-31",
+      "sexo": "Femenino",
+      "programa_id": 4
+    },
+    {
+      "id": "39",
+      "nombre": "Héctor",
+      "apellido": "rozo",
+      "tipo_documento": "Cedula",
+      "numero_documento": "94832792029848",
+      "ciudad_residencia": "Bogotá",
+      "direccion": "Calle 901",
+      "telefono": "0987654358",
+      "fecha_nacimiento": "1980-11-07",
+      "sexo": "Masculino",
+      "programa_id": 7
+    },
+    {
+      "id": "40",
+      "nombre": "Rolando",
+      "apellido": "Porro",
+      "tipo_documento": "Numero Pasaporte",
+      "numero_documento": "90911938666777",
+      "ciudad_residencia": "Cali",
+      "direccion": "Avenida 234",
+      "telefono": "0987654359",
+      "fecha_nacimiento": "1983-02-16",
+      "sexo": "Femenino",
+      "programa_id": 3
+    },
+    {
+      "id": "41",
+      "nombre": "Orlando",
+      "apellido": "Rozo de Olaya ",
+      "tipo_documento": "Tarjeta Identidad",
+      "numero_documento": "847328283922",
+      "ciudad_residencia": "Barranquilla",
+      "direccion": "Carrera 567",
+      "telefono": "0987654360",
+      "fecha_nacimiento": "1996-05-25",
+      "sexo": "Masculino",
+      "programa_id": 6
+    },
+    {
+      "id": "42",
+      "nombre": "Julia",
+      "apellido": "cretino",
+      "tipo_documento": "Cédula de Extranjería",
+      "numero_documento": "828390813002",
+      "ciudad_residencia": "Medellín",
+      "direccion": "Calle 678",
+      "telefono": "0987654361",
+      "fecha_nacimiento": "1989-08-03",
+      "sexo": "Femenino",
+      "programa_id": 1
+    },
+    {
+      "id": "43",
+      "nombre": "Andrea",
+      "apellido": "queso",
+      "tipo_documento": "Cedula",
+      "numero_documento": "300492240083",
+      "ciudad_residencia": "Bogotá",
+      "direccion": "Avenida 901",
+      "telefono": "0987654362",
+      "fecha_nacimiento": "1984-11-11",
+      "sexo": "Masculino",
+      "programa_id": 9
+    },
+    {
+      "id": "44",
+      "nombre": "Diego",
+      "apellido": "pelayo",
+      "tipo_documento": "Numero Pasaporte",
+      "numero_documento": "32118736654321",
+      "ciudad_residencia": "Cali",
+      "direccion": "Calle 234",
+      "telefono": "0987654363",
+      "fecha_nacimiento": "1997-02-19",
+      "sexo": "Femenino",
+      "programa_id": 2
+    },
+    {
+      "id": "45",
+      "nombre": "Camilo",
+      "apellido": "Usurriaga",
+      "tipo_documento": "Tarjeta Identidad",
+      "numero_documento": "473281920472",
+      "ciudad_residencia": "Barranquilla",
+      "direccion": "Carrera 567",
+      "telefono": "0987654364",
+      "fecha_nacimiento": "1982-05-28",
+      "sexo": "Masculino",
+      "programa_id": 8
+    },
+    {
+      "id": "46",
+      "nombre": "Valentina",
+      "apellido": "fresa",
+      "tipo_documento": "Cédula de Extranjería",
+      "numero_documento": "3091389067890",
+      "ciudad_residencia": "Medellín",
+      "direccion": "Avenida 678",
+      "telefono": "0987654365",
+      "fecha_nacimiento": "1985-09-06",
+      "sexo": "Femenino",
+      "programa_id": 4
+    },
+    {
+      "id": "47",
+      "nombre": "Fernando",
+      "apellido": "credo",
+      "tipo_documento": "Cedula",
+      "numero_documento": "93893290384321",
+      "ciudad_residencia": "Bogotá",
+      "direccion": "Calle 901",
+      "telefono": "0987654366",
+      "fecha_nacimiento": "1990-12-14",
+      "sexo": "Masculino",
+      "programa_id": 7
+    },
+    {
+      "id": "48",
+      "nombre": "Gabriela",
+      "apellido": "toco",
+      "tipo_documento": "Numero Pasaporte",
+      "numero_documento": "558333200939777",
+      "ciudad_residencia": "Cali",
+      "direccion": "Avenida 234",
+      "telefono": "0987654367",
+      "fecha_nacimiento": "1988-03-23",
+      "sexo": "Femenino",
+      "programa_id": 3
+    },
+    {
+      "id": "49",
+      "nombre": "Juan",
+      "apellido": "lulo",
+      "tipo_documento": "Tarjeta Identidad",
+      "numero_documento": "9876483827921",
+      "ciudad_residencia": "Barranquilla",
+      "direccion": "Carrera 567",
+      "telefono": "0987654368",
+      "fecha_nacimiento": "1993-06-30",
+      "sexo": "Masculino",
+      "programa_id": 6
+    },
+    {
+      "id": "50",
+      "nombre": "Sofía",
+      "apellido": "Fierro",
+      "tipo_documento": "Cédula de Extranjería",
+      "numero_documento": "4562837373812",
+      "ciudad_residencia": "Medellín",
+      "direccion": "Calle 789",
+      "telefono": "0987654369",
+      "fecha_nacimiento": "1996-10-07",
+      "sexo": "Femenino",
+      "programa_id": 1
+    },
+    {
+      "id": "51",
+      "nombre": "",
+      "apellido": "",
+      "tipo_documento": "CC",
+      "numero_documento": "",
+      "ciudad_residencia": "",
+      "direccion": "",
+      "telefono": "",
+      "fecha_nacimiento": "",
+      "sexo": "H",
+      "programa_id": "1"
     }
   ],
   "cursos": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Programación Avanzada",
       "codigo": "PROG-AVA",
       "guia_catedra": "URL_Guia_Catedra.pdf"
     },
     {
-      "id": 2,
+      "id": "2",
       "nombre": "Álgebra Lineal",
       "codigo": "ALG-LI",
       "guia_catedra": "URL_Guia_Catedra.pdf"
+    },
+    {
+      "id": "3",
+      "nombre": "Desarrollo Web",
+      "codigo": "DES-WEB",
+      "guia_catedra": "URL_Guia_Desarrollo_Web.pdf"
+    },
+    {
+      "id": "4",
+      "nombre": "Bases de Datos",
+      "codigo": "BD-DATOS",
+      "guia_catedra": "URL_Guia_Bases_Datos.pdf"
+    },
+    {
+      "id": "5",
+      "nombre": "Redes de Computadoras",
+      "codigo": "RED-COMP",
+      "guia_catedra": "URL_Guia_Redes.pdf"
+    },
+    {
+      "id": "6",
+      "nombre": "Sistemas Operativos",
+      "codigo": "SIS-OPER",
+      "guia_catedra": "URL_Guia_Sistemas_Operativos.pdf"
+    },
+    {
+      "id": "7",
+      "nombre": "Diseño Gráfico",
+      "codigo": "DISE-GRF",
+      "guia_catedra": "URL_Guia_Diseño_Grafico.pdf"
+    },
+    {
+      "id": "8",
+      "nombre": "Matemáticas Aplicadas",
+      "codigo": "MATH-APP",
+      "guia_catedra": "URL_Guia_Matematicas.pdf"
+    },
+    {
+      "id": "9",
+      "nombre": "Ingeniería de Software",
+      "codigo": "ING-SOFT",
+      "guia_catedra": "URL_Guia_Ingenieria_Software.pdf"
+    },
+    {
+      "id": "10",
+      "nombre": "Ciberseguridad",
+      "codigo": "CIBER-SEG",
+      "guia_catedra": "URL_Guia_Ciberseguridad.pdf"
+    },
+    {
+      "id": "11",
+      "nombre": "Marketing Digital",
+      "codigo": "MARK-DIG",
+      "guia_catedra": "URL_Guia_Marketing_Digital.pdf"
+    },
+    {
+      "id": "12",
+      "nombre": "Análisis de Datos",
+      "codigo": "ANAL-DAT",
+      "guia_catedra": "URL_Guia_Analisis_Datos.pdf"
+    },
+    {
+      "id": "13",
+      "nombre": "Diseño de Experiencia de Usuario",
+      "codigo": "DISE-UX",
+      "guia_catedra": "URL_Guia_Diseño_UX.pdf"
+    },
+    {
+      "id": "14",
+      "nombre": "Programación en C++",
+      "codigo": "PROG-CPP",
+      "guia_catedra": "URL_Guia_Programacion_Cpp.pdf"
+    },
+    {
+      "id": "15",
+      "nombre": "Inglés Avanzado",
+      "codigo": "ING-AVZ",
+      "guia_catedra": "URL_Guia_Ingles_Avanzado.pdf"
+    },
+    {
+      "id": "16",
+      "nombre": "Arquitectura de Software",
+      "codigo": "ARQ-SOFT",
+      "guia_catedra": "URL_Guia_Arquitectura_Software.pdf"
+    },
+    {
+      "id": "17",
+      "nombre": "Diseño de Juegos",
+      "codigo": "DISE-JUEG",
+      "guia_catedra": "URL_Guia_Diseño_Juegos.pdf"
+    },
+    {
+      "id": "18",
+      "nombre": "Estadística Aplicada",
+      "codigo": "EST-APL",
+      "guia_catedra": "URL_Guia_Estadistica_Aplicada.pdf"
+    },
+    {
+      "id": "19",
+      "nombre": "Desarrollo Mobile",
+      "codigo": "DES-MOB",
+      "guia_catedra": "URL_Guia_Desarrollo_Mobile.pdf"
+    },
+    {
+      "id": "20",
+      "nombre": "Introducción a la Robótica",
+      "codigo": "ROB-INT",
+      "guia_catedra": "URL_Guia_Intro_Robotica.pdf"
+    },
+    {
+      "id": "21",
+      "nombre": "Gestión de Proyectos",
+      "codigo": "GEST-PROY",
+      "guia_catedra": "URL_Guia_Gestion_Proyectos.pdf"
+    },
+    {
+      "id": "22",
+      "nombre": "Física Avanzada",
+      "codigo": "FIS-AVZ",
+      "guia_catedra": "URL_Guia_Fisica_Avanzada.pdf"
+    },
+    {
+      "id": "23",
+      "nombre": "Comunicación Organizacional",
+      "codigo": "COM-ORG",
+      "guia_catedra": "URL_Guia_Comunicacion_Organizacional.pdf"
+    },
+    {
+      "id": "24",
+      "nombre": "Ética Profesional",
+      "codigo": "ETI-PROF",
+      "guia_catedra": "URL_Guia_Etica_Profesional.pdf"
+    },
+    {
+      "id": "25",
+      "nombre": "Bioinformática",
+      "codigo": "BIO-INF",
+      "guia_catedra": "URL_Guia_Bioinformatica.pdf"
+    },
+    {
+      "id": "26",
+      "nombre": "Diseño Industrial",
+      "codigo": "DISE-IND",
+      "guia_catedra": "URL_Guia_Diseño_Industrial.pdf"
+    },
+    {
+      "id": "27",
+      "nombre": "Psicología del Consumidor",
+      "codigo": "PSIC-CON",
+      "guia_catedra": "URL_Guia_Psicologia_Consumidor.pdf"
+    },
+    {
+      "id": "28",
+      "nombre": "Economía Internacional",
+      "codigo": "ECO-INT",
+      "guia_catedra": "URL_Guia_Economia_Internacional.pdf"
+    },
+    {
+      "id": "29",
+      "nombre": "Derecho Empresarial",
+      "codigo": "DER-EMP",
+      "guia_catedra": "URL_Guia_Derecho_Empresarial.pdf"
+    },
+    {
+      "id": "30",
+      "nombre": "Neurociencia Cognitiva",
+      "codigo": "NEURO-COG",
+      "guia_catedra": "URL_Guia_Neurociencia_Cognitiva.pdf"
     }
   ],
   "salones": [
     {
-      "id": 1,
+      "id": "1",
       "capacidad_alumnos": 30,
       "edificio": "Edificio A",
       "piso": 2,
       "numero_identificacion": "S001"
+    },
+    {
+      "id": "2",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio B",
+      "piso": 3,
+      "numero_identificacion": "S002"
+    },
+    {
+      "id": "3",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio C",
+      "piso": 4,
+      "numero_identificacion": "S003"
+    },
+    {
+      "id": "4",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio A",
+      "piso": 1,
+      "numero_identificacion": "S004"
+    },
+    {
+      "id": "5",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio B",
+      "piso": 2,
+      "numero_identificacion": "S005"
+    },
+    {
+      "id": "6",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio C",
+      "piso": 3,
+      "numero_identificacion": "S006"
+    },
+    {
+      "id": "7",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio A",
+      "piso": 4,
+      "numero_identificacion": "S007"
+    },
+    {
+      "id": "8",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio B",
+      "piso": 1,
+      "numero_identificacion": "S008"
+    },
+    {
+      "id": "9",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio C",
+      "piso": 2,
+      "numero_identificacion": "S009"
+    },
+    {
+      "id": "10",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio A",
+      "piso": 3,
+      "numero_identificacion": "S010"
+    },
+    {
+      "id": "11",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio B",
+      "piso": 4,
+      "numero_identificacion": "S011"
+    },
+    {
+      "id": "12",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio C",
+      "piso": 1,
+      "numero_identificacion": "S012"
+    },
+    {
+      "id": "13",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio A",
+      "piso": 2,
+      "numero_identificacion": "S013"
+    },
+    {
+      "id": "14",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio B",
+      "piso": 3,
+      "numero_identificacion": "S014"
+    },
+    {
+      "id": "15",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio C",
+      "piso": 4,
+      "numero_identificacion": "S015"
+    },
+    {
+      "id": "16",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio A",
+      "piso": 1,
+      "numero_identificacion": "S016"
+    },
+    {
+      "id": "17",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio B",
+      "piso": 2,
+      "numero_identificacion": "S017"
+    },
+    {
+      "id": "18",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio C",
+      "piso": 3,
+      "numero_identificacion": "S018"
+    },
+    {
+      "id": "19",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio A",
+      "piso": 4,
+      "numero_identificacion": "S019"
+    },
+    {
+      "id": "20",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio B",
+      "piso": 1,
+      "numero_identificacion": "S020"
     }
   ],
   "asignaturas": [
     {
-      "id": 1,
+      "id": "1",
       "curso_id": 1,
       "codigo": "PROG-AVA-PER-2024",
       "creditos": 4,
@@ -142,7 +1465,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "curso_id": 2,
       "codigo": "ALG-LI-PER-2024",
       "creditos": 3,
@@ -163,22 +1486,733 @@
           "salon_id": 1
         }
       ]
+    },
+    {
+      "id": "3",
+      "curso_id": 3,
+      "codigo": "DES-WEB-PER-2024",
+      "creditos": 4,
+      "profesor_id": 12,
+      "cupos_disponibles": 18,
+      "programa_id": 4,
+      "horario_clases": [
+        {
+          "dia": "Viernes",
+          "hora_inicio": "14:00",
+          "hora_fin": "16:00",
+          "salon_id": 3
+        },
+        {
+          "dia": "Sábado",
+          "hora_inicio": "14:00",
+          "hora_fin": "16:00",
+          "salon_id": 3
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "curso_id": 4,
+      "codigo": "BD-DATOS-PER-2024",
+      "creditos": 3,
+      "profesor_id": 18,
+      "cupos_disponibles": 22,
+      "programa_id": 9,
+      "horario_clases": [
+        {
+          "dia": "Lunes",
+          "hora_inicio": "16:00",
+          "hora_fin": "18:00",
+          "salon_id": 4
+        },
+        {
+          "dia": "Martes",
+          "hora_inicio": "16:00",
+          "hora_fin": "18:00",
+          "salon_id": 4
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "curso_id": 5,
+      "codigo": "RED-COMP-PER-2024",
+      "creditos": 4,
+      "profesor_id": 27,
+      "cupos_disponibles": 20,
+      "programa_id": 2,
+      "horario_clases": [
+        {
+          "dia": "Miércoles",
+          "hora_inicio": "08:00",
+          "hora_fin": "10:00",
+          "salon_id": 5
+        },
+        {
+          "dia": "Jueves",
+          "hora_inicio": "08:00",
+          "hora_fin": "10:00",
+          "salon_id": 5
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "curso_id": 6,
+      "codigo": "SIS-OPER-PER-2024",
+      "creditos": 3,
+      "profesor_id": 4,
+      "cupos_disponibles": 24,
+      "programa_id": 8,
+      "horario_clases": [
+        {
+          "dia": "Viernes",
+          "hora_inicio": "10:00",
+          "hora_fin": "12:00",
+          "salon_id": 6
+        },
+        {
+          "dia": "Sábado",
+          "hora_inicio": "10:00",
+          "hora_fin": "12:00",
+          "salon_id": 6
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "curso_id": 7,
+      "codigo": "DISE-GRF-PER-2024",
+      "creditos": 4,
+      "profesor_id": 16,
+      "cupos_disponibles": 19,
+      "programa_id": 5,
+      "horario_clases": [
+        {
+          "dia": "Lunes",
+          "hora_inicio": "14:00",
+          "hora_fin": "16:00",
+          "salon_id": 7
+        },
+        {
+          "dia": "Martes",
+          "hora_inicio": "14:00",
+          "hora_fin": "16:00",
+          "salon_id": 7
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "curso_id": 8,
+      "codigo": "MATH-APP-PER-2024",
+      "creditos": 3,
+      "profesor_id": 28,
+      "cupos_disponibles": 23,
+      "programa_id": 1,
+      "horario_clases": [
+        {
+          "dia": "Miércoles",
+          "hora_inicio": "16:00",
+          "hora_fin": "18:00",
+          "salon_id": 8
+        },
+        {
+          "dia": "Jueves",
+          "hora_inicio": "16:00",
+          "hora_fin": "18:00",
+          "salon_id": 8
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "curso_id": 9,
+      "codigo": "ING-SOFT-PER-2024",
+      "creditos": 4,
+      "profesor_id": 10,
+      "cupos_disponibles": 21,
+      "programa_id": 6,
+      "horario_clases": [
+        {
+          "dia": "Viernes",
+          "hora_inicio": "08:00",
+          "hora_fin": "10:00",
+          "salon_id": 9
+        },
+        {
+          "dia": "Sábado",
+          "hora_inicio": "08:00",
+          "hora_fin": "10:00",
+          "salon_id": 9
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "curso_id": 11,
+      "codigo": "MARK-DIG-PER-2024",
+      "creditos": 4,
+      "profesor_id": 17,
+      "cupos_disponibles": 18,
+      "programa_id": 3,
+      "horario_clases": [
+        {
+          "dia": "Lunes",
+          "hora_inicio": "10:00",
+          "hora_fin": "12:00",
+          "salon_id": 10
+        },
+        {
+          "dia": "Martes",
+          "hora_inicio": "10:00",
+          "hora_fin": "12:00",
+          "salon_id": 10
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "curso_id": 12,
+      "codigo": "PROG-AVA-PER-2024",
+      "creditos": 3,
+      "profesor_id": 15,
+      "cupos_disponibles": 22,
+      "programa_id": 10,
+      "horario_clases": [
+        {
+          "dia": "Miércoles",
+          "hora_inicio": "14:00",
+          "hora_fin": "16:00",
+          "salon_id": 11
+        },
+        {
+          "dia": "Jueves",
+          "hora_inicio": "14:00",
+          "hora_fin": "16:00",
+          "salon_id": 11
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "curso_id": 13,
+      "codigo": "INTEL-AI-PER-2024",
+      "creditos": 4,
+      "profesor_id": 25,
+      "cupos_disponibles": 20,
+      "programa_id": 8,
+      "horario_clases": [
+        {
+          "dia": "Viernes",
+          "hora_inicio": "16:00",
+          "hora_fin": "18:00",
+          "salon_id": 12
+        },
+        {
+          "dia": "Sábado",
+          "hora_inicio": "16:00",
+          "hora_fin": "18:00",
+          "salon_id": 12
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "curso_id": 14,
+      "codigo": "DES-WEB-PER-2024",
+      "creditos": 3,
+      "profesor_id": 9,
+      "cupos_disponibles": 24,
+      "programa_id": 2,
+      "horario_clases": [
+        {
+          "dia": "Lunes",
+          "hora_inicio": "08:00",
+          "hora_fin": "10:00",
+          "salon_id": 13
+        },
+        {
+          "dia": "Martes",
+          "hora_inicio": "08:00",
+          "hora_fin": "10:00",
+          "salon_id": 13
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "curso_id": 15,
+      "codigo": "BD-DATOS-PER-2024",
+      "creditos": 4,
+      "profesor_id": 19,
+      "cupos_disponibles": 23,
+      "programa_id": 6,
+      "horario_clases": [
+        {
+          "dia": "Miércoles",
+          "hora_inicio": "10:00",
+          "hora_fin": "12:00",
+          "salon_id": 14
+        },
+        {
+          "dia": "Jueves",
+          "hora_inicio": "10:00",
+          "hora_fin": "12:00",
+          "salon_id": 14
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "curso_id": 16,
+      "codigo": "RED-COMP-PER-2024",
+      "creditos": 3,
+      "profesor_id": 26,
+      "cupos_disponibles": 25,
+      "programa_id": 5,
+      "horario_clases": [
+        {
+          "dia": "Viernes",
+          "hora_inicio": "14:00",
+          "hora_fin": "16:00",
+          "salon_id": 15
+        },
+        {
+          "dia": "Sábado",
+          "hora_inicio": "14:00",
+          "hora_fin": "16:00",
+          "salon_id": 15
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "curso_id": 17,
+      "codigo": "SIS-OPER-PER-2024",
+      "creditos": 4,
+      "profesor_id": 3,
+      "cupos_disponibles": 21,
+      "programa_id": 3,
+      "horario_clases": [
+        {
+          "dia": "Lunes",
+          "hora_inicio": "16:00",
+          "hora_fin": "18:00",
+          "salon_id": 16
+        },
+        {
+          "dia": "Martes",
+          "hora_inicio": "16:00",
+          "hora_fin": "18:00",
+          "salon_id": 16
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "curso_id": 18,
+      "codigo": "DISE-GRF-PER-2024",
+      "creditos": 3,
+      "profesor_id": 7,
+      "cupos_disponibles": 22,
+      "programa_id": 9,
+      "horario_clases": [
+        {
+          "dia": "Miércoles",
+          "hora_inicio": "08:00",
+          "hora_fin": "10:00",
+          "salon_id": 17
+        },
+        {
+          "dia": "Jueves",
+          "hora_inicio": "08:00",
+          "hora_fin": "10:00",
+          "salon_id": 17
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "curso_id": 19,
+      "codigo": "MATH-APP-PER-2024",
+      "creditos": 4,
+      "profesor_id": 29,
+      "cupos_disponibles": 20,
+      "programa_id": 7,
+      "horario_clases": [
+        {
+          "dia": "Viernes",
+          "hora_inicio": "10:00",
+          "hora_fin": "12:00",
+          "salon_id": 18
+        },
+        {
+          "dia": "Sábado",
+          "hora_inicio": "10:00",
+          "hora_fin": "12:00",
+          "salon_id": 18
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "curso_id": 20,
+      "codigo": "ING-SOFT-PER-2024",
+      "creditos": 3,
+      "profesor_id": 11,
+      "cupos_disponibles": 24,
+      "programa_id": 10,
+      "horario_clases": [
+        {
+          "dia": "Lunes",
+          "hora_inicio": "14:00",
+          "hora_fin": "16:00",
+          "salon_id": 19
+        },
+        {
+          "dia": "Martes",
+          "hora_inicio": "14:00",
+          "hora_fin": "16:00",
+          "salon_id": 19
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "curso_id": 21,
+      "codigo": "CIBER-SEG-PER-2024",
+      "creditos": 4,
+      "profesor_id": 21,
+      "cupos_disponibles": 18,
+      "programa_id": 8,
+      "horario_clases": [
+        {
+          "dia": "Miércoles",
+          "hora_inicio": "16:00",
+          "hora_fin": "18:00",
+          "salon_id": 20
+        },
+        {
+          "dia": "Jueves",
+          "hora_inicio": "16:00",
+          "hora_fin": "18:00",
+          "salon_id": 20
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "curso_id": 22,
+      "codigo": "MARK-DIG-PER-2024",
+      "creditos": 3,
+      "profesor_id": 16,
+      "cupos_disponibles": 22,
+      "programa_id": 2,
+      "horario_clases": [
+        {
+          "dia": "Viernes",
+          "hora_inicio": "08:00",
+          "hora_fin": "10:00",
+          "salon_id": 21
+        },
+        {
+          "dia": "Sábado",
+          "hora_inicio": "08:00",
+          "hora_fin": "10:00",
+          "salon_id": 21
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "curso_id": 23,
+      "codigo": "PROG-AVA-PER-2024",
+      "creditos": 4,
+      "profesor_id": 1,
+      "cupos_disponibles": 20,
+      "programa_id": 1,
+      "horario_clases": [
+        {
+          "dia": "Lunes",
+          "hora_inicio": "10:00",
+          "hora_fin": "12:00",
+          "salon_id": 22
+        },
+        {
+          "dia": "Martes",
+          "hora_inicio": "10:00",
+          "hora_fin": "12:00",
+          "salon_id": 22
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "curso_id": 24,
+      "codigo": "INTEL-AI-PER-2024",
+      "creditos": 3,
+      "profesor_id": 5,
+      "cupos_disponibles": 25,
+      "programa_id": 7,
+      "horario_clases": [
+        {
+          "dia": "Miércoles",
+          "hora_inicio": "14:00",
+          "hora_fin": "16:00",
+          "salon_id": 23
+        },
+        {
+          "dia": "Jueves",
+          "hora_inicio": "14:00",
+          "hora_fin": "16:00",
+          "salon_id": 23
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "curso_id": 25,
+      "codigo": "DES-WEB-PER-2024",
+      "creditos": 4,
+      "profesor_id": 26,
+      "cupos_disponibles": 20,
+      "programa_id": 8,
+      "horario_clases": [
+        {
+          "dia": "Viernes",
+          "hora_inicio": "16:00",
+          "hora_fin": "18:00",
+          "salon_id": 24
+        },
+        {
+          "dia": "Sábado",
+          "hora_inicio": "16:00",
+          "hora_fin": "18:00",
+          "salon_id": 24
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "curso_id": 26,
+      "codigo": "BD-DATOS-PER-2024",
+      "creditos": 3,
+      "profesor_id": 22,
+      "cupos_disponibles": 23,
+      "programa_id": 3,
+      "horario_clases": [
+        {
+          "dia": "Lunes",
+          "hora_inicio": "08:00",
+          "hora_fin": "10:00",
+          "salon_id": 25
+        },
+        {
+          "dia": "Martes",
+          "hora_inicio": "08:00",
+          "hora_fin": "10:00",
+          "salon_id": 25
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "curso_id": 27,
+      "codigo": "RED-COMP-PER-2024",
+      "creditos": 4,
+      "profesor_id": 11,
+      "cupos_disponibles": 22,
+      "programa_id": 1,
+      "horario_clases": [
+        {
+          "dia": "Miércoles",
+          "hora_inicio": "14:00",
+          "hora_fin": "16:00",
+          "salon_id": 26
+        },
+        {
+          "dia": "Jueves",
+          "hora_inicio": "14:00",
+          "hora_fin": "16:00",
+          "salon_id": 26
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "curso_id": 28,
+      "codigo": "SIS-OPER-PER-2024",
+      "creditos": 3,
+      "profesor_id": 9,
+      "cupos_disponibles": 21,
+      "programa_id": 2,
+      "horario_clases": [
+        {
+          "dia": "Viernes",
+          "hora_inicio": "10:00",
+          "hora_fin": "12:00",
+          "salon_id": 27
+        },
+        {
+          "dia": "Sábado",
+          "hora_inicio": "10:00",
+          "hora_fin": "12:00",
+          "salon_id": 27
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "curso_id": 29,
+      "codigo": "DISE-GRF-PER-2024",
+      "creditos": 4,
+      "profesor_id": 15,
+      "cupos_disponibles": 24,
+      "programa_id": 6,
+      "horario_clases": [
+        {
+          "dia": "Lunes",
+          "hora_inicio": "16:00",
+          "hora_fin": "18:00",
+          "salon_id": 28
+        },
+        {
+          "dia": "Martes",
+          "hora_inicio": "16:00",
+          "hora_fin": "18:00",
+          "salon_id": 28
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "curso_id": 30,
+      "codigo": "MATH-APP-PER-2024",
+      "creditos": 3,
+      "profesor_id": 24,
+      "cupos_disponibles": 20,
+      "programa_id": 4,
+      "horario_clases": [
+        {
+          "dia": "Miércoles",
+          "hora_inicio": "08:00",
+          "hora_fin": "10:00",
+          "salon_id": 29
+        },
+        {
+          "dia": "Jueves",
+          "hora_inicio": "08:00",
+          "hora_fin": "10:00",
+          "salon_id": 29
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "curso": "3",
+      "codigo": "3",
+      "creditos": "3",
+      "docente": "6",
+      "cupos": "2",
+      "horario_clases": [
+        {
+          "dia": "Jueves",
+          "hora_inicio": "5",
+          "salon_id": "7"
+        },
+        {
+          "dia": "Miercoles",
+          "hora_inicio": "5",
+          "salon_id": "11"
+        }
+      ]
     }
   ],
   "matriculas": [
     {
-      "id": 1,
+      "id": "1",
       "estudiante_id": 1,
       "asignatura_id": 1,
       "periodo_id": 1,
       "precio": 4000
     },
     {
-      "id": 2,
+      "id": "2",
       "estudiante_id": 1,
       "asignatura_id": 2,
       "periodo_id": 1,
       "precio": 3300
+    },
+    {
+      "id": "3",
+      "estudiante_id": 2,
+      "asignatura_id": 2,
+      "periodo_id": 1,
+      "precio": 3300
+    },
+    {
+      "id": "3",
+      "estudiante_id": 2,
+      "asignatura_id": 1,
+      "periodo_id": 1,
+      "precio": 4000
+    },
+    {
+      "id": "5",
+      "estudiante_id": 41,
+      "asignatura_id": 28,
+      "periodo_id": 1,
+      "precio": 2850
+    },
+    {
+      "id": "6",
+      "estudiante_id": 49,
+      "asignatura_id": 28,
+      "periodo_id": 2,
+      "precio": 2850
+    },
+    {
+      "id": 7,
+      "estudiante_id": 41,
+      "asignatura_id": 1,
+      "periodo_id": 1,
+      "precio": 4000
+    },
+    {
+      "id": 7,
+      "estudiante_id": 41,
+      "asignatura_id": 1,
+      "periodo_id": 1,
+      "precio": 4000
+    },
+    {
+      "id": 7,
+      "estudiante_id": 41,
+      "asignatura_id": 1,
+      "periodo_id": 1,
+      "precio": 4000
+    },
+    {
+      "id": 7,
+      "estudiante_id": 41,
+      "asignatura_id": 1,
+      "periodo_id": 1,
+      "precio": 4000
+    },
+    {
+      "id": 7,
+      "estudiante_id": 41,
+      "asignatura_id": 1,
+      "periodo_id": 1,
+      "precio": 4000
+    },
+    {
+      "id": 7,
+      "estudiante_id": 41,
+      "asignatura_id": 16,
+      "periodo_id": 1,
+      "precio": 3600
     }
   ]
 }

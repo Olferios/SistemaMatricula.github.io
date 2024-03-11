@@ -140,3 +140,73 @@ a.sidebar-link:hover {
     transform: rotate(45deg);
     transition: all .2s ease-out;
 }
+
+
+#timetable {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* 6 columnas para los días de la semana */
+}
+
+.cell {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.time-label {
+    font-weight: bold;
+}
+
+.day-label {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Estilos Horarios */
+#moduloHorario {
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para cada asignatura */
+.asignatura-list {
+    border: 1px solid #d9c8c8;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.asignatura-item {
+    font-weight: bold;
+}
+
+.horario-item {
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+.align-left-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; /* Alinea verticalmente el botón al centro si es necesario */
+    width: 100%; /* O ajusta el ancho según tus necesidades */
+}
+
+.align-left {
+    text-align: left;
+}
+
+
+#titulo {
+    font-weight: auto;
+    font-size: 3.5rem;
+    margin: 0; /* Elimina el margen predeterminado del h1 */
+}
+
+@media (max-width: 480px) {
+    #titulo {
+        font-size: 1.5rem;
+    }
+}
